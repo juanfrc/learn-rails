@@ -46,6 +46,9 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
+    dotenv (2.0.1)
+    dotenv-rails (2.0.1)
+      dotenv (= 2.0.1)
     erubis (2.7.0)
     execjs (2.4.0)
     extlib (0.9.16)
@@ -184,6 +187,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   coffee-rails (~> 4.0.0)
+  dotenv-rails
   foundation-rails (~> 5.4.5)
   gibbon
   google_drive
